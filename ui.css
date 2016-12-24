@@ -1,0 +1,76 @@
+::-webkit-scrollbar{
+ background-color:#003366;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: white;
+}
+::-webkit-scrollbar-track{
+    background-color: #003366;
+}
+/*The track-piece or track is nothing but path on which scrollbar operates
+::-webkit-scrollbar-track-piece{
+    background-color: red;
+}
+*/
+::-webkit-scrollbar-corner{
+    background-color: #003366;
+}
+
+::-webkit-scrollbar-button {
+    background-color:#003366
+}
+body{
+    background-color: #003366;
+ 
+}
+.container-fluid{
+    background-color: #003366;
+ 
+}
+.navbar-brand{
+    background-color:#003366;
+    color: slategrey;
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-overflow: hidden;
+}
+.nav{
+    background-color: #003366;
+    color: slategray;
+    padding-top: 5px; 
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row{
+    background-color: #003366;
+}
+p{
+    color: slategrey;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    text-align: justify;
+}
+
+ul.at{
+    color: slategrey;
+    font-size: 25px;
+    word-spacing:5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    
+}
+p::first-letter{
+    font-size: 50px;
+}
+img{
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+iframe{
+    border-radius: 20px;
+}
