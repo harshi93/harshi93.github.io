@@ -67,8 +67,7 @@ p::first-letter{
     font-size: 50px;
 }
 img{
-    border-top-right-radius: 100px;
-    border-bottom-left-radius: 100px;
+    border-radius: 200px;
 }
 
 iframe{
