@@ -23,7 +23,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
   crossorigin="anonymous">
   </script>
-<script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+<!--<script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>-->
   <link rel="stylesheet" type="text/css" href="ui.css" />
 <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
@@ -44,7 +44,7 @@
 	
 
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="navbar-collapse collapse">
+      <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
 	<ul class="nav navbar-nav">
           <li><a href="Bio.html" target=main>Who am I</a></li>
           <li><a href="academics.html" target=main>Academically</a></li>
@@ -53,7 +53,19 @@
           <li><a href="http://harshitsingh.com" target=_blank />SpeakingOf</a></li>
           </li>
         </ul>
-        
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(document).ready(function () {
+    $(document).click(function (event) {
+        var clickover = $(event.target);
+        var _opened = $(".navbar-collapse").hasClass("navbar-collapse in");
+        if (_opened === true && !clickover.hasClass("navbar-toggle")) {
+            $("button.navbar-toggle").click();
+        }
+    });
+});
+</script>        
 <!--          <li>
             <a id="SkypeButton_Call_singh_harshit_1">
               <script type="text/javascript">
