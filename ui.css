@@ -57,9 +57,18 @@ p{
     text-align: justify;
 }
 
+/*Remember the LoVe-HAte mnemonic which says that you
+need to first define link followed by visited followed by
+hover followed by active */
+ul.nav a:visited{
+	color: slategrey !important;
+}
+
+
 ul.nav a:hover{
 	color:white !important;
 }
+
 ul.at{
     color: slategrey;
     font-size: 25px;
