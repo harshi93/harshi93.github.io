@@ -34,13 +34,13 @@ class Headers extends Component {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav mr-auto">
                         <li className="nav-item active"> 
-                            <a className="nav-link" href="/" data-toggle="collapse" data-target=".navbar-collapse.show" target="_blank" rel="noopener noreferrer" onClick={this.handleProjectClicked}>Projects <span className="sr-only" >(current)</span></a> 
+                            <a className="nav-link" href="/" data-toggle="collapse" data-target=".navbar-collapse.show" target="_blank" onClick={this.handleProjectClicked}>Projects <span className="sr-only" >(current)</span></a> 
                         </li>
                         <li className="nav-item"> 
-                            <a className="nav-link" href="/" data-toggle="collapse" data-target=".navbar-collapse.show" target="_blank" rel="noopener noreferrer" onClick={this.handleExperienceClicked}>Experience <span className="sr-only">(current)</span></a>
+                            <a className="nav-link" href="/" data-toggle="collapse" data-target=".navbar-collapse.show" target="_blank" onClick={this.handleExperienceClicked}>Experience</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="https://www.youracclaim.com/users/singh-harshit/badges" target="_blank" rel="noopener noreferrer" data-toggle="collapse" data-target=".navbar-collapse.show">Certifications <span className="sr-only">(current)</span></a>
+                            <a className="nav-link" href="https://www.youracclaim.com/users/singh-harshit" target="_blank" rel="noopener noreferrer" >Certifications</a>
                         </li>
                         </ul>
                     </div>
